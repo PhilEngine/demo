@@ -17,15 +17,18 @@
 #define SIZE_LONG sizeof(long)
 #define SIZE_FLOAT sizeof(float)
 #define SIZE_DOUBLE sizeof(double)
+
+#define MINI_FLOAT 0.0001
 // base data struct define
 typedef unsigned char _byte8, _byte;
 typedef unsigned short _byte16, _ushort;
 typedef unsigned int _byte3, _uint;
 typedef unsigned long _byte64, _ulong;
+typedef void* _anything;
 
 namespace MyTool
 {
-	typedef void* _anything;
+	
 }
 
 namespace My3D
